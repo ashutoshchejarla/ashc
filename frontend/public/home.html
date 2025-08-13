@@ -1,62 +1,62 @@
-&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
-  &lt;title&gt;Portfolio - Home&lt;/title&gt;
-  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
-  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt;
-  &lt;link href=&quot;https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
-  &lt;link rel=&quot;stylesheet&quot; href=&quot;./styles.css&quot;&gt;
-  &lt;script src=&quot;./mock.js&quot; defer&gt;&lt;/script&gt;
-  &lt;script src=&quot;./main.js&quot; defer&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;nav class=&quot;top-nav small&quot;&gt;
-    &lt;a href=&quot;./home.html&quot;&gt;Home&lt;/a&gt;
-    &lt;a href=&quot;./about.html#about&quot;&gt;About&lt;/a&gt;
-  &lt;/nav&gt;
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio - Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./mock.js" defer></script>
+  <script src="./main.js" defer></script>
+</head>
+<body>
+  <nav class="top-nav small">
+    <a href="./home.html">Home</a>
+    <a href="./about.html#about">About</a>
+  </nav>
 
-  &lt;main&gt;
-    &lt;section class=&quot;parallax-scene&quot;&gt;
-      &lt;div class=&quot;scene-viewport&quot;&gt;
-        &lt;div class=&quot;layer stars&quot; id=&quot;stars&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;layer moon&quot; id=&quot;moon&quot;&gt;&lt;/div&gt;
-        &lt;!-- Mountains SVG layers --&gt;
-        &lt;svg class=&quot;layer&quot; width=&quot;100%&quot; height=&quot;100%&quot; viewBox=&quot;0 0 1000 600&quot; preserveAspectRatio=&quot;none&quot;&gt;
-          &lt;defs&gt;
-            &lt;linearGradient id=&quot;mountGrad&quot; x1=&quot;0&quot; x2=&quot;0&quot; y1=&quot;0&quot; y2=&quot;1&quot;&gt;
-              &lt;stop offset=&quot;0%&quot; stop-color=&quot;#4a4f55&quot;/&gt;
-              &lt;stop offset=&quot;100%&quot; stop-color=&quot;#2b3035&quot;/&gt;
-            &lt;/linearGradient&gt;
-          &lt;/defs&gt;
-          &lt;polygon class=&quot;mountain far&quot; points=&quot;0,480 160,380 280,460 420,340 560,420 700,360 840,460 1000,400 1000,600 0,600&quot; /&gt;
-          &lt;polygon class=&quot;mountain near&quot; points=&quot;0,520 180,420 320,500 470,380 640,480 780,420 920,520 1000,500 1000,600 0,600&quot; /&gt;
-        &lt;/svg&gt;
+  <main>
+    <section class="parallax-scene">
+      <div class="scene-viewport">
+        <div class="layer stars" id="stars"></div>
+        <div class="layer moon" id="moon"></div>
+        <!-- Mountains SVG layers -->
+        <svg class="layer" width="100%" height="100%" viewBox="0 0 1000 600" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="mountGrad" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stop-color="#4a4f55"/>
+              <stop offset="100%" stop-color="#2b3035"/>
+            </linearGradient>
+          </defs>
+          <polygon class="mountain far" points="0,480 160,380 280,460 420,340 560,420 700,360 840,460 1000,400 1000,600 0,600" />
+          <polygon class="mountain near" points="0,520 180,420 320,500 470,380 640,480 780,420 920,520 1000,500 1000,600 0,600" />
+        </svg>
 
-        &lt;div class=&quot;layer floating-logos&quot; aria-hidden=&quot;true&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;layer fog&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;layer&quot; id=&quot;phantoms&quot; aria-hidden=&quot;true&quot;&gt;&lt;/div&gt;
+        <div class="layer floating-logos" aria-hidden="true"></div>
+        <div class="layer fog"></div>
+        <div class="layer" id="phantoms" aria-hidden="true"></div>
 
-        &lt;div class=&quot;center-face&quot;&gt;
-          &lt;img id=&quot;center-face-img&quot; alt=&quot;Headshot&quot; /&gt;
-        &lt;/div&gt;
+        <div class="center-face">
+          <img id="center-face-img" alt="Headshot">
+        </div>
 
-        &lt;!-- Cave cross-fade --&gt;
-        &lt;div class=&quot;cave-wrap&quot;&gt;
-          &lt;div class=&quot;cave-bg&quot;&gt;&lt;/div&gt;
-          &lt;div class=&quot;cave-walls&quot;&gt;&lt;/div&gt;
-          &lt;div class=&quot;fireplace&quot;&gt;&lt;/div&gt;
-          &lt;div class=&quot;coder&quot;&gt;
-            &lt;div class=&quot;desk&quot;&gt;&lt;/div&gt;
-            &lt;div class=&quot;body&quot;&gt;&lt;/div&gt;
-            &lt;div class=&quot;screen&quot;&gt;&lt;/div&gt;
-            &lt;div class=&quot;laptop&quot;&gt;&lt;/div&gt;
-            &lt;div class=&quot;head&quot;&gt;&lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/section&gt;
-  &lt;/main&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+        <!-- Cave cross-fade -->
+        <div class="cave-wrap">
+          <div class="cave-bg"></div>
+          <div class="cave-walls"></div>
+          <div class="fireplace"></div>
+          <div class="coder">
+            <div class="desk"></div>
+            <div class="body"></div>
+            <div class="screen"></div>
+            <div class="laptop"></div>
+            <div class="head"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

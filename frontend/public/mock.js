@@ -6,7 +6,7 @@ window.MOCK = {
       "I enjoy building interactive 3D-esque effects with efficient, GPU-friendly transforms.",
       "Currently exploring motion design systems and micro-interactions for enterprise apps."
     ],
-    fullBodyImg: "https://images.unsplash.com/photo-1678382998481-cf2c113493d2?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+    fullBodyImg: "https://images.unsplash.com/photo-1678382998481-cf2c113493d2?auto=format&fit=crop&w=900&q=80"
   },
   experiences: [
     {
@@ -52,7 +52,7 @@ window.MOCK = {
     }
   ],
   assets: {
-    face: "https://images.unsplash.com/photo-1646541121625-e6675f5e88b1?auto=format&amp;fit=crop&amp;w=600&amp;q=80",
+    face: "https://images.unsplash.com/photo-1646541121625-e6675f5e88b1?auto=format&fit=crop&w=600&q=80",
     headshotAlt: "Portrait headshot",
     htmlLogo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.png",
     cssLogo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.png"

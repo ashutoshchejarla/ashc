@@ -170,7 +170,7 @@
     const phantomLayer = $('#phantoms');
     if (!phantomLayer) return;
     const COUNT = 6;
-    for (let i=0;i&lt;COUNT;i++){
+    for (let i=0;i<COUNT;i++){
       const d = document.createElement('div'); d.className = 'phantom';
       d.style.top = (10 + Math.random()*50) + 'vh';
       d.style.left = (Math.random()*100) + 'vw';
@@ -181,7 +181,6 @@
       const t = Date.now()/1000;
       nodes.forEach((n, idx)=>{
         const speed = 0.6 + (idx%3)*0.2;
-        const x = (parseFloat(n.style.left) + Math.sin(t*speed + idx)*0.12);
         n.style.transform = `translateX(${(t*8 + idx*40)% (window.innerWidth + 200)}px) translateY(${Math.sin((t+idx)*0.8)*6}px)`;
       });
       requestAnimationFrame(animate);
