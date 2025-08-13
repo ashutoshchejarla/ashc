@@ -54,7 +54,7 @@ window.MOCK = {
   assets: {
     face: "https://images.unsplash.com/photo-1646541121625-e6675f5e88b1?auto=format&fit=crop&w=600&q=80",
     headshotAlt: "Portrait headshot",
-    htmlLogo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.png",
-    cssLogo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.png"
+    htmlLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png",
+    cssLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/120px-CSS3_logo_and_wordmark.svg.png"
   }
 };
